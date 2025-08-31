@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'alx_backend_caching_property_listings.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql', 'postgres'
         'NAME': 'propertydb',
         'USER': 'propertyuser',
         'PASSWORD': 'propertypass',
